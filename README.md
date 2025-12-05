@@ -4,6 +4,9 @@
 
 A Slidev starter template with pre-built components, unified CLI, and multi-presentation support.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yugasun/slidev-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yugasun/slidev-starter)
+
 ## ✨ Features
 
 - 🎨 **Pre-built Components** - Cover, Section, Q&A, End slides ready to use
@@ -110,13 +113,13 @@ bun run list
 
 ### CLI Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `init` | `i` | Initialize project with author info |
-| `dev [name]` | `d` | Start development server |
-| `build [name]` | `b` | Build for production |
-| `export [name]` | `e` | Export to PDF |
-| `list` | `ls` | List all presentations |
+| Command         | Alias | Description                         |
+| --------------- | ----- | ----------------------------------- |
+| `init`          | `i`   | Initialize project with author info |
+| `dev [name]`    | `d`   | Start development server            |
+| `build [name]`  | `b`   | Build for production                |
+| `export [name]` | `e`   | Export to PDF                       |
+| `list`          | `ls`  | List all presentations              |
 
 ## Creating a Presentation
 
@@ -198,16 +201,16 @@ Content here...
 
 ## NPM Scripts
 
-| Script | Description |
-|--------|-------------|
-| `init` | Initialize project configuration |
-| `dev` | Interactive dev mode |
-| `dev:demo` | Start demo directly |
-| `build` | Interactive build |
-| `build:all` | Build all presentations |
-| `export` | Export to PDF |
-| `preview` | Preview built files |
-| `list` | List presentations |
+| Script      | Description                      |
+| ----------- | -------------------------------- |
+| `init`      | Initialize project configuration |
+| `dev`       | Interactive dev mode             |
+| `dev:demo`  | Start demo directly              |
+| `build`     | Interactive build                |
+| `build:all` | Build all presentations          |
+| `export`    | Export to PDF                    |
+| `preview`   | Preview built files              |
+| `list`      | List presentations               |
 
 ## Resources
 

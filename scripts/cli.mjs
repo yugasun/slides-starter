@@ -415,15 +415,19 @@ async function build(slideName) {
   for (const slide of toBuild) {
     console.log(`\n${ICONS.package} Building ${COLORS.cyan}${slide.name}${COLORS.reset}...`)
 
+    const outDir = join(ROOT_DIR, 'dist', slide.name)
+    // Use root base path for single presentation deployment
+    const basePath = toBuild.length === 1 ? '/' : `/${slide.name}/`
+
     try {
       await runCommand('npx', [
         'slidev',
         'build',
         slide.path,
         '--base',
-        `/${slide.name}/`,
+        basePath,
         '--out',
-        `dist/${slide.name}`,
+        outDir,
       ])
       log.success(`${ICONS.check} ${slide.name} -> dist/${slide.name}/`)
     } catch (err) {

@@ -8,8 +8,9 @@
     "dev:demo": "node scripts/cli.mjs dev demo",
     "build": "node scripts/cli.mjs build",
     "build:all": "node scripts/cli.mjs build all",
+    "build:demo": "node scripts/cli.mjs build demo",
     "export": "node scripts/cli.mjs export",
-    "preview": "npx serve dist",
+    "preview": "npx serve dist/demo",
     "list": "node scripts/cli.mjs list"
   },
   "dependencies": {
