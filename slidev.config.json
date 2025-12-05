@@ -1,0 +1,12 @@
+{
+  "author": {
+    "name": "yugasun",
+    "email": "yugasun.ai@gmail.com",
+    "github": "https://github.com/yugasun"
+  },
+  "defaults": {
+    "gradientFrom": "blue-600",
+    "gradientTo": "cyan-600",
+    "qaSubtitle": "Thanks for listening!"
+  }
+}

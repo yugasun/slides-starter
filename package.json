@@ -1,0 +1,28 @@
+{
+  "name": "slidev-starter",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "init": "node scripts/cli.mjs init",
+    "dev": "node scripts/cli.mjs dev",
+    "dev:demo": "node scripts/cli.mjs dev demo",
+    "build": "node scripts/cli.mjs build",
+    "build:all": "node scripts/cli.mjs build all",
+    "export": "node scripts/cli.mjs export",
+    "preview": "npx serve dist",
+    "list": "node scripts/cli.mjs list"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.10.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "unplugin-vue-components": "^30.0.0",
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+dist
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
+
+# Ignore specific PPT files --- IGNORE ---
+slides/*.md
+!slides/demo.md
