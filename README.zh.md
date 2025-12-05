@@ -4,8 +4,8 @@
 
 一个 Slidev 入门模板，内置预制组件、统一 CLI 和多演示文稿支持。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ppt-starter/slidev-starter)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ppt-starter/slidev-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yugasun/slides-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yugasun/slides-starter)
 
 ## ✨ 特性
 

@@ -1,7 +1,16 @@
 {
-  "name": "slidev-starter",
+  "name": "slides-starter",
+  "version": "1.0.0",
+  "description": "A Slidev starter template with pre-built components, unified CLI, and multi-presentation support.",
+  "keywords": [
+    "slides",
+    "slidev",
+    "slides-template",
+    "slides-starter",
+    "presentation"
+  ],
+  "author": "yugasun",
   "type": "module",
-  "private": true,
   "scripts": {
     "init": "node scripts/cli.mjs init",
     "dev": "node scripts/cli.mjs dev",
@@ -25,5 +34,14 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "homepage": "https://github.com/yugasun/slides-starter#readme",
+  "bugs": {
+    "url": "https://github.com/yugasun/slides-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugasun/slides-starter.git"
+  },
+  "license": "Apache-2.0"
 }
