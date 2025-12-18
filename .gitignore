@@ -9,3 +9,6 @@ components.d.ts
 # Ignore specific PPT files --- IGNORE ---
 slides/*.md
 !slides/demo.md
+
+# markdown files to be converted to slides --- INCLUDE ---
+docs/
