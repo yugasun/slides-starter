@@ -1,15 +1,21 @@
 <script setup lang="ts">
-defineProps<{
-  title: string
-  subtitle?: string
-  tagline?: string
-  features?: string
-}>()
+const {
+  title = '欢迎交流讨论',
+  subtitle = '联系邮箱：yugasun.ai@gmail.com',
+  tagline,
+  features,
+} = defineProps<{
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  features?: string;
+}>();
 </script>
 
 <template>
   <div class="end-container">
-    <div class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
+    <div
+      class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
       {{ title }}
     </div>
 
@@ -21,7 +27,9 @@ defineProps<{
       {{ tagline }}
     </div>
 
-    <div v-if="features" class="mt-6 text-lg text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-blue-400 to-green-400">
+    <div
+      v-if="features"
+      class="mt-6 text-lg text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-blue-400 to-green-400">
       {{ features }}
     </div>
   </div>
